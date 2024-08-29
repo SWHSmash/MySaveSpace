@@ -1,8 +1,24 @@
-# Amazon/Alexa
+! Amazon/Alexa/Shopping
+! https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Amazon-Video
 @@||avs-alexa-14-eu.amazon.com^$important
+@@||aiv-cdn.net^$important
+@@||aiv-cdn.net.c.footprint.net^$important
+@@||aiv-delivery.net^$important
+@@||amazonvideo.com^$important
+@@||atv-ext.amazon.com^$important
+@@||atv-ps.amazon.com^$important
+@@||d25xi40x97liuc.cloudfront.net^$important
+@@||dmqdd6hw24ucf.cloudfront.net^$important
+@@||media-amazon.com^$important
+@@||primevideo.com^$important
+@@||www.aiv-cdn.net^$important
+@@||www.aiv-delivery.net^$important
+@@||www.amazonvideo.com^$important
+@@||www.media-amazon.com^$important
+@@||www.primevideo.com^$important
 
-# Apple 
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/apple_whitelist.txt
+! Apple 
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/apple_whitelist.txt
 @@||*.push.apple.com^$important
 @@||albert.apple.com^$important
 @@||api-glb.smoot.apple.com^$important
@@ -42,8 +58,8 @@
 @@||vpp.itunes.apple.com^$important
 @@||xp.apple.com^$important
 
-# Cloud Storage
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/cloud_storage_whitelist.txt
+! Cloud Storage
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/cloud_storage_whitelist.txt
 @@||*.icedrive.io^$important
 @@||*.karere.mega.nz^$important
 @@||*.offcloud.com^$important
@@ -137,8 +153,8 @@
 @@||www.iperiusbackup.net^$important
 @@||www.mediafire.com^$important
 
-# Discord 
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Apps/discord_whitelist.txt
+! Discord 
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Apps/discord_whitelist.txt
 @@||cdn.discordapp.com^$important
 @@||discord.com^$important
 @@||discord.gg^$important
@@ -155,8 +171,8 @@
 @@||status.discord.com^$important
 @@||updates.discord.com^$important
 
-# Disney Plus 
-# https://raw.githubusercontent.com/91ajames/Disney-Plus-AdGuard-Pi-Hole/main/whitelist-disneyplus.txt
+! Disney Plus 
+! https://raw.githubusercontent.com/91ajames/Disney-Plus-AdGuard-Pi-Hole/main/whitelist-disneyplus.txt
 @@||cdn.registerdisney.go.com^$important
 @@||click.mail.disneyplus.com^$important
 @@||image.mail.disneyplus.com^$important
@@ -173,8 +189,8 @@
 @@||search-api-disney.bamgrid.com^$important
 @@||playback-certs.bamgrid.com^$important
 
-# JDownloader 
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Apps/jdownloader_whitelist.txt
+! JDownloader 
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Apps/jdownloader_whitelist.txt
 @@||*.mydns.jdownloader.org^$important
 @@||192-168-1-103.mydns.jdownloader.org^$important
 @@||api.jdownloader.org^$important
@@ -188,8 +204,8 @@
 @@||svn.jdownloader.org^$important
 @@||update*.jdownloader.org^$important
 
-# Media
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Media/media_whitelist.txt
+! Media
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Media/media_whitelist.txt
 @@||*.cdn.optimizely.com^$important
 @@||*.deviantart.com^$important
 @@||7tv.foo^$important
@@ -346,12 +362,12 @@
 @@||xhub-scripts.dolby.com^$important
 @@||xpui.app.spotify.com^$important
 
-# Nintendo
+! Nintendo
 @@||fs-prod-cdn.nintendo-europe.com^$important
 @@||nintendoeu-1.hs.llnwd.net^$important
 
-# Passwort Manager
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Managers/password_managers_whitelist.txt
+! Passwort Manager
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Managers/password_managers_whitelist.txt
 @@||accounts.lastpass.com^$important
 @@||api.bitwarden.com^$important
 @@||auth.lastpass.com^$important
@@ -369,8 +385,8 @@
 @@||pollserver.lastpass.com^$important
 @@||vault.bitwarden.com^$important
 
-# Payment 
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Shopping/payment_providers_whitelist.txt
+! Payment 
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Shopping/payment_providers_whitelist.txt
 @@||api-m.paypal.com^$important
 @@||api.paypal.com^$important
 @@||api.stripe.com^$important
@@ -396,14 +412,35 @@
 @@||www.paypalobjects.com^$important
 @@||www.paypalobjects.comimages^$important
 
-# Reddit
+! Plex
+! https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Plex
+@@||plex.bz^$important
+@@||plex.direct^$important
+@@||plex.tv^$important
+@@||plex.tv.cdn.cloudflare.net^$important
+@@||plexapp.com^$important
+@@||plexapp.com.cdn.cloudflare.net^$important
+@@||www.plex.bz^$important
+@@||www.plex.direct^$important
+@@||www.plex.tv^$important
+@@||www.plexapp.com^$important
+@@||podcasts.provider.plex.tv^$important
+@@||news.provider.plex.tv^$important
+@@||webshows.provider.plex.tv^$important
+@@||vod.provider.plex.tv^$important
+@@||pubsub.plex.tv^$important
+@@||meta.plex.tv^$important
+@@||resources-cdn.plexapp.com^$important
+@@||downloads.plex.tv^$important
+
+! Reddit
 @@||e.reddit.com^$important
 @@||gql-fed.reddit.com^$important
 @@||w3-reporting-nel.reddit.com^$important
 @@||w3-reporting.reddit.com^$important
 
-# Remote Access
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/remote_access_whitelist.txt
+! Remote Access
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/remote_access_whitelist.txt
 @@||*-ibm-r*.teamviewer.com^$important
 @@||anydesk.com^$important
 @@||au-syd-anx-r*.teamviewer.com^$important
@@ -426,8 +463,8 @@
 @@||www.anydesk.com^$important
 @@||www.teamviewer.com^$important
 
-# Samsung
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/samsung_whitelist.txt
+! Samsung
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/samsung_whitelist.txt
 @@||account.samsung.com.gslb.cdnetworks.net^$important
 @@||account.samsung.com^$important
 @@||api-us1.mpay.samsung.com^$important
@@ -470,8 +507,8 @@
 @@||www.samsungotn.net^$important
 @@||zpu.samsungelectronics.com^$important
 
-# Shopping
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Shopping/shopping_whitelist.txt
+! Shopping
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Shopping/shopping_whitelist.txt
 @@||accounts.aliexpress.com^$important
 @@||alibaba.com^$important
 @@||alicdn.com^$important
@@ -521,13 +558,13 @@
 @@||www.scorptec.com.au^$important
 @@||www.smeg.com^$important
 
-# Snapchat
+! Snapchat
 @@||aws.duplex.snapchat.com^$important
 @@||api.snapchat.com^$important
 @@||app.snapchat.com^$important
 
-# Sony
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/sony_whitelist.txt
+! Sony
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/sony_whitelist.txt
 @@||connected.sonymusic.com^$important
 @@||gmedia.playstation.com^$important
 @@||id.sonyentertainmentnetwork.com^$important
@@ -546,8 +583,8 @@
 @@||web.np.playstation.com^$important
 @@||www.playstation.com^$important
 
-# Soundcloud
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/soundcloud_whitelist.txt
+! Soundcloud
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/soundcloud_whitelist.txt
 @@||accounts.soundcloud.com^$important
 @@||api-auth.soundcloud.com^$important
 @@||api-embedded.soundcloud.com^$important
@@ -608,8 +645,8 @@
 @@||visuals.soundcloud.com^$important
 @@||wt.soundcloud.com^$important
 
-# Speedtests
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/speedtest_whitelist.txt
+! Speedtests
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/speedtest_whitelist.txt
 @@||api.fast.com^$important
 @@||apiproxy-api-fast-*.amazonaws.com^$important
 @@||ausyd1-edge1.cdn.i3d.net^$important
@@ -659,7 +696,28 @@
 @@||zd.map.fastly.net^$important
 @@||zdstatic.speedtest.net^$important
 
-# Telekom
+! Spotify
+! https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Spotify
+@@||audio-ak-spotify-com.akamaized.net^$important
+@@||audio-akp-bbr-spotify-com.akamaized.net^$important
+@@||audio4-ak-spotify-com.akamaized.net^$important
+@@||heads-ak-spotify-com.akamaized.net^$important
+@@||pscdn.co^$important
+@@||i.scdn.co^$important
+@@||scdn.co^$important
+@@||spotify-com.akamaized.net^$important
+@@||spotify.com.edgesuite.net^$important
+@@||spotify.demdex.net^$important
+@@||spotify.edgekey.net^$important
+@@||spotify.map.fastly.net^$important
+@@||spotifycdn.net^$important
+@@||spotilocal.com^$important
+@@||www.pscdn.co^$important
+@@||www.spotifycdn.net^$important
+@@||www.spotilocal.com^$important
+@@||audio4-fa.scdn.co^$important
+
+! Telekom
 @@||angebote.telekom.de^$important
 @@||appointments.tech*.telekom.de^$important
 @@||ebs0*.telekom.de^$important
@@ -668,14 +726,44 @@
 @@||www.telekom.de^$important
 @@||www.magentamusik.de^$important
 
-# TikTok
+! TikTok
 @@||tiktokv.com^$important
 @@||tiktokcdn-us.com^$important
 @@||tiktokcdn.com^$important
 @@||web-i18n.tiktok.com^$important
 
-# Videos
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Media/video_whitelist.txt
+! Twitch
+! https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Twitch
+@@||ext-twitch.tv^$important
+@@||jtvnw.net^$important
+@@||ttvnw.net^$important
+@@||twitch.tv^$important
+@@||twitchcdn.net^$important
+@@||twitchsvc.net^$important
+@@||www.ext-twitch.tv^$important
+@@||www.jtvnw.net^$important
+@@||www.ttvnw.net^$important
+@@||www.twitch.tv^$important
+@@||www.twitchcdn.net^$important
+@@||www.twitchsvc.net^$important
+@@||api.twitch.tv^$important
+@@||static-cdn.jtvnw.net^$important
+@@||supervisor.ext-twitch.tv^$important
+
+! Twitter
+! https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Twitter
+@@||pbs.twimg.com^$important
+@@||t.co^$important
+@@||twimg.com^$important
+@@||twitter.com^$important
+@@||twitter.map.fastly.net^$important
+@@||twttr.com^$important
+@@||www.twimg.com^$important
+@@||www.twitter.com^$important
+@@||www.twttr.com^$important
+
+! Videos
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Media/video_whitelist.txt
 @@||*.abs.hls.ttvnw.net^$important
 @@||*.cdn.rumble.cloud^$important
 @@||*.ext-twitch.tv^$important
@@ -685,7 +773,6 @@
 @@||api-global.netflix.com^$important
 @@||api.dbdtwitch.com^$important
 @@||api.netflix.com^$important
-@@||api.twitch.tv^$important
 @@||api.vimeo.com^$important
 @@||app.hulu.com^$important
 @@||app.twitch.tv^$important
@@ -823,13 +910,11 @@
 @@||status.vimeo.com^$important
 @@||stockservice.vimeo.com^$important
 @@||streamtape.com^$important
-@@||supervisor.ext-twitch.tv^$important
 @@||sv.twitch.tv^$important
 @@||tr.twitch.tv^$important
 @@||tv.vimeo.com^$important
 @@||tw.blog.twitch.tv^$important
 @@||twitch.amazon.com^$important
-@@||twitch.tv^$important
 @@||upload.vimeo.com^$important
 @@||uploads.twitchalerts.com^$important
 @@||video-edge-855073.pdx01.abs.hls.ttvnw.net^$important
@@ -841,14 +926,27 @@
 @@||vod-secure.twitch.tv^$important
 @@||web*.rumble.com^$important
 @@||wn*.rumble.com^$important
-@@||www.twitch.tv^$important
 @@||xt.streamlabs.com^$important
 @@||yewtu.be^$important
 @@||youtube-dl.org^$important
 @@||youtube-nocookie.com^$important
 
-# Wikis
-# https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/wiki_whitelist.txt
+! Whatsapp
+! https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/WhatsApp
+@@||media-muc2-1.cdn.whatsapp.net^$important
+@@||static.whatsapp.net^$important
+@@||g.whatsapp.net^$important
+@@||chat.cdn.whatsapp.net^$important
+@@||whatsapp.com^$important
+@@||whatsapp.net^$important
+@@||www.whatsapp.com^$important
+@@||www.whatsapp.net^$important
+@@||web.whatsapp.com^$important
+@@||pps.whatsapp.net^$important
+@@||media-vie1-1.cdn.whatsapp.net^$important
+
+! Wikis
+! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/wiki_whitelist.txt
 @@||0.wikipedia.com^$important
 @@||commons.wikipedia.com^$important
 @@||cs.wikipedia.com^$important
@@ -890,7 +988,82 @@
 @@||wikipedia.org^$important
 @@||www.wikihow.com^$important
 
-# 1_ZOther/Misc
+! XBox
+! https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/XBOX
+@@||googleads.g.doubleclick.net^$important
+@@||accounts.xboxlive.com^$important
+@@||achievements.xboxlive.com^$important
+@@||activityhub.xboxlive.com^$important
+@@||arc.msn.com^$important
+@@||attestation.xboxlive.com^$important
+@@||avatarv3.xboxlive.com^$important
+@@||avty.xboxlive.com^$important
+@@||cert.mgt.xboxlive.com^$important
+@@||chatfd.xboxlive.com^$important
+@@||client.wns.windows.com^$important
+@@||clubhub.xboxlive.com^$important
+@@||collections.mp.microsoft.com^$important
+@@||comments.xboxlive.com^$important
+@@||ctldl.windowsupdate.com^$important
+@@||def-vef.xboxlive.com^$important
+@@||device.auth.xboxlive.com^$important
+@@||displaycatalog.mp.microsoft.com^$important
+@@||dlassets-ssl.xboxlive.com^$important
+@@||editorial.xboxlive.com^$important
+@@||eds.xboxlive.com^$important
+@@||eplists.xboxlive.com^$important
+@@||fe3cr.delivery.mp.microsoft.com^$important
+@@||help.ui.xboxlive.com^$important
+@@||img-prod-cms-rt-microsoft-com.akamaized.net^$important
+@@||leaderboards.xboxlive.com^$important
+@@||licensing.mp.microsoft.com^$important
+@@||licensing.xboxlive.com^$important
+@@||login.live.com^$important
+@@||mediahub.xboxlive.com^$important
+@@||mixer.com^$important
+@@||notificationinbox.xboxlive.com^$important
+@@||notifier.xboxlive.com^$important
+@@||notify.xboxlive.com^$important
+@@||ocsp.digicert.com^$important
+@@||ocsp.msocsp.com^$important
+@@||peoplehub.xboxlive.com^$important
+@@||plaid.xboxservices.com^$important
+@@||privacy.xboxlive.com^$important
+@@||profile.xboxlive.com^$important
+@@||pti.store.microsoft.com^$important
+@@||rta.xboxlive.com^$important
+@@||sessiondirectory.xboxlive.com^$important
+@@||settings-win.data.microsoft.com^$important
+@@||slscr.update.microsoft.com^$important
+@@||social.xboxlive.com^$important
+@@||storeedgefd.dsx.mp.microsoft.com^$important
+@@||title.auth.xboxlive.com^$important
+@@||title.mgt.xboxlive.com^$important
+@@||titlehub.xboxlive.com^$important
+@@||titlestorage.xboxlive.com^$important
+@@||update.xboxlive.com^$important
+@@||user.auth.xboxlive.com^$important
+@@||userpresence.xboxlive.com^$important
+@@||userstats.xboxlive.com^$important
+@@||usertitles.xboxlive.com^$important
+@@||v10.events.data.microsoft.com^$important
+@@||v20.events.data.microsoft.com^$important
+@@||www.msftconnecttest.com^$important
+@@||www.msftncsi.com^$important
+@@||www.xboxab.com^$important
+@@||www.xboxlive.com^$important
+@@||xblmessaging.xboxlive.com^$important
+@@||xbox-dash-public.rec.mp.microsoft.com^$important
+@@||xbox-global.ifs.windows.com^$important
+@@||xbox-guide-public.rec.mp.microsoft.com^$important
+@@||xbox.ipv6.microsoft.com^$important
+@@||xboxexperiencesprod.experimentation.xboxlive.com^$important
+@@||xccs.xboxlive.com^$important
+@@||xflight.xboxlive.com^$important
+@@||xkms.xboxlive.com^$important
+@@||xsts.auth.xboxlive.com^$important
+
+! 1_ZOther/Misc
 @@||oxide.wtf^$important
 @@||receiver.habby.mobi^$important
 @@||mydealz.digidip.net^$important
@@ -903,3 +1076,10 @@
 @@||i.xgroovy.com^$important
 @@||tuyaeu.com^$important
 @@||ko-fi.com^$important
+@@||ptbtime1.ptb.de^$important
+@@||ptbtime2.ptb.de^$important
+@@||ptbtime3.ptb.de^$important
+@@||dns.digitale-gesellschaft.ch^$important
+@@||1dot1dot1dot1.cloudflare-dns.com^$important
+@@||one.one.one.one^$important
+@@||swhsmash.de^$important
