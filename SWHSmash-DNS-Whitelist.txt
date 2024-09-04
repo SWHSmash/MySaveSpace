@@ -58,6 +58,16 @@
 @@||vpp.itunes.apple.com^$important
 @@||xp.apple.com^$important
 
+! Booking
+@@||accommodations.booking.com^$important
+@@||account.booking.com^$important
+@@||nellie.booking.com^$important
+@@||secure.booking.com^$important
+@@||shelves.booking.com^$important
+@@||web-perf.booking.com^$important
+@@||www.booking.com^$important
+@@||www.booking.com^$important
+
 ! Cloud Storage
 ! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Tech/cloud_storage_whitelist.txt
 @@||*.icedrive.io^$important
@@ -152,6 +162,17 @@
 @@||www.iperiusbackup.com^$important
 @@||www.iperiusbackup.net^$important
 @@||www.mediafire.com^$important
+
+! Dailymotion
+@@||consent.dailymotion.com^$important
+@@||graphql.api.dailymotion.com^$important
+@@||www.dailymotion.com^$important
+@@||pebed.dm-event.net^$important
+@@||webed.dm-event.net^$important
+@@||static*.dmcdn.net^$important
+@@||vendorlist.dmcdn.net^$important
+@@||vod.cf.dmcdn.net^$important
+@@||geolocation.onetrust.com^$important
 
 ! Discord 
 ! https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Apps/discord_whitelist.txt
@@ -558,6 +579,20 @@
 @@||www.scorptec.com.au^$important
 @@||www.smeg.com^$important
 
+! SmartTV Whitelist
+! Panasonic Viera & Panny TV
+@@||mhc-ajax-eu.myhomescreen.tv^$important
+@@||mhc-ajax-eu-s2.myhomescreen.tv^$important
+@@||mhc-xpana-eu.myhomescreen.tv^$important
+@@||mhc-xpana-eu-s2.myhomescreen.tv^$important
+! Samsung
+@@||infolink.pavv.co.kr^$important
+! HBBTV
+@@||hbbtv.zdf.de^$important
+@@||hbbtv.prosieben.de^$important
+@@||hbbtv.redbutton.de^$important
+@@||hbbtv.kika.de^$important
+
 ! Snapchat
 @@||aws.duplex.snapchat.com^$important
 @@||api.snapchat.com^$important
@@ -722,9 +757,11 @@
 @@||appointments.tech*.telekom.de^$important
 @@||ebs0*.telekom.de^$important
 @@||magentamoments.meinebenefits.de^$important
+@@||moments-warteraum.telekom.de^$important
 @@||shop-search.tech*.telekom.de^$important
 @@||www.telekom.de^$important
 @@||www.magentamusik.de^$important
+
 
 ! TikTok
 @@||tiktokv.com^$important
@@ -1083,3 +1120,5 @@
 @@||1dot1dot1dot1.cloudflare-dns.com^$important
 @@||one.one.one.one^$important
 @@||swhsmash.de^$important
+@@||vendorlist.dmcdn.net^$important
+@@||cdn.hubvisor.io^$important
